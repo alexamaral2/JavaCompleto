@@ -1,4 +1,4 @@
-package br.com.alexjr.exercicios_jpa.model;
+package br.com.alexjr.exercicios_jpa.model.basico;
 
 import jakarta.persistence.*;
 import java.io.Serializable;
