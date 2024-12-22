@@ -6,6 +6,7 @@
 
     <persistence-unit name="exercicios-jpa" transaction-type="RESOURCE_LOCAL">
         <class>br.com.alexjr.exercicios_jpa.model.basico.Usuario</class>
+        <class>br.com.alexjr.exercicios_jpa.model.basico.Produto</class>
 
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
