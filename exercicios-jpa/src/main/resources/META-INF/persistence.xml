@@ -5,8 +5,7 @@
              version="3.0">
 
     <persistence-unit name="exercicios-jpa" transaction-type="RESOURCE_LOCAL">
-        <class>br.com.alexjr.exercicios_jpa.model.basico.Usuario</class>
-        <class>br.com.alexjr.exercicios_jpa.model.basico.Produto</class>
+        <exclude-unlisted-classes>false</exclude-unlisted-classes>
 
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
