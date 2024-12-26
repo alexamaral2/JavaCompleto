@@ -5,6 +5,7 @@
              version="3.0">
 
     <persistence-unit name="exercicios-jpa" transaction-type="RESOURCE_LOCAL">
+        <mapping-file>META-INF/consultas.xml</mapping-file>
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
 
         <properties>
